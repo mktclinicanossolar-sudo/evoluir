@@ -1,0 +1,6 @@
+{
+  "name": "Evoluir Clínica Integrada",
+  "description": "Clínica multidisciplinar em Adamantina - SP com atendimento especializado no desenvolvimento de crianças, adolescentes e famílias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
