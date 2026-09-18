@@ -3,35 +3,41 @@ import { DevelopmentTopic } from '../types';
 export const DEVELOPMENT_TOPICS: DevelopmentTopic[] = [
   {
     id: 'comunicacao-aprendizagem',
-    title: 'Comunicação e Aprendizagem',
-    description: 'Dúvidas no ritmo da fala, atenção em aula ou processo de alfabetização.',
+    title: 'Comunicação e Linguagem',
+    description: 'Apoio na aquisição e clareza da fala, foco na escola e expressão das ideias.',
     examples: [
-      'Aquisição e clareza na linguagem',
-      'Foco e fixação de conteúdos escolares',
-      'Compreensão e execução de instruções',
+      'Clareza e ritmo da fala',
+      'Atenção e aprendizagem escolar',
+      'Compreensão de orientações',
     ],
     accentColor: '#1267B1', // Blue
+    imageSrc: '/images/speech_room.jpg',
+    badge: 'Comunicação',
   },
   {
     id: 'comportamento-regulacao',
-    title: 'Comportamento e Emoções',
-    description: 'Intensa frustração, agitação motora ou resistência a mudanças na rotina.',
+    title: 'Regulação Sensorial & Emoções',
+    description: 'Compreensão de sobrecargas sensoriais, agitação, limites e expressão de sentimentos.',
     examples: [
-      'Expressão e regulação das emoções',
-      'Flexibilidade diante de transições',
-      'Manejo de impulsos e reações',
+      'Manejo de frustrações e limites',
+      'Autorregulação em sala sensorial',
+      'Flexibilidade em transições',
     ],
     accentColor: '#EC155A', // Magenta
+    imageSrc: '/images/sensory.jpg',
+    badge: 'Comportamento',
   },
   {
     id: 'interacao-autonomia',
-    title: 'Interação Social e Autonomia',
-    description: 'Desafios no brincar coletivo, convívio com colegas ou tarefas diárias.',
+    title: 'Autonomia & Interação Social',
+    description: 'Estímulo ao brincar compartilhado, coordenação motora e independência na rotina.',
     examples: [
-      'Engajamento social e interesse por pares',
-      'Autonomia em rotinas de autocuidado',
-      'Coordenação motora e exploração motora',
+      'Convívio com outras crianças',
+      'Autonomia no autocuidado diário',
+      'Equilíbrio e coordenação motora',
     ],
     accentColor: '#58B957', // Green
+    imageSrc: '/images/child.jpg',
+    badge: 'Autonomia',
   },
 ];

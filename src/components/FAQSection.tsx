@@ -25,10 +25,6 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ onOpenContact }) => {
         {/* Header - short */}
         <div className="text-center max-w-xl mx-auto mb-10 sm:mb-12">
           <Reveal>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1267B1]/10 text-xs font-bold tracking-wider text-[#1267B1] uppercase mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#18C4D9]" />
-              <span>DÚVIDAS FREQUENTES</span>
-            </div>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-[#063F82] tracking-tight leading-tight font-['Manrope'] mb-2">
               Respostas claras para sua tranquilidade.
             </h2>

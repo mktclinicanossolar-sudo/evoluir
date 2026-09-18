@@ -17,9 +17,11 @@ export interface ServiceItem {
   title: string;
   shortDesc: string;
   fullDesc: string;
-  iconName: 'users' | 'activity' | 'sparkles' | 'puzzle' | 'brain' | 'heart' | 'bookOpen';
+  iconName: 'users' | 'activity' | 'puzzle' | 'brain' | 'heart' | 'bookOpen';
   confirmed: boolean;
   accentColor: string; // brand token
+  imageSrc?: string;
+  tags?: string[];
 }
 
 export interface DevelopmentTopic {
@@ -28,6 +30,8 @@ export interface DevelopmentTopic {
   description: string;
   examples: string[];
   accentColor: string;
+  imageSrc?: string;
+  badge?: string;
 }
 
 export interface CareStep {
